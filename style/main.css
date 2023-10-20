@@ -1,0 +1,227 @@
+*,p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Barlow';
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1.2em;
+    font-weight: 600;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar{
+    display: none;
+  }
+
+#attribution {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.6rem;
+}
+
+.navbar{
+    position : absolute;
+    top: 0 ;
+    right : 0;
+}
+.white{
+    background-color : white;
+}
+.square .title,.square .text {
+    width : 100%;
+
+}
+.square .title{
+    font-size : 2.3vw;
+}
+.square  .text{
+    font-size : 1.4vw;
+}
+
+.nav-link a{
+    color : white;
+}
+.green{
+    color : hsl(168, 34%, 41%);
+    background-color : #8ed0c4;
+}
+.green a {
+    text-decoration : none;
+    color : hsl(168, 34%, 41%);
+    cursor : pointer;
+}
+.nav a{
+    font-size : 1.6vw;
+}
+.green a:hover {
+    color : white;
+}
+.nav a, .social img{
+    display : inline-block;
+}
+.nav{
+    text-align : center;
+}
+.title{
+    font-family : 'Fraunces';
+    font-weight : 900;
+    font-size : 2em;
+}
+
+.learn {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    color:black;
+    font-size : 2vw;
+      transition: all .25s ease-in-out;
+      padding: 2px 2px 0 2px;
+      cursor : pointer;
+
+}
+.testimonial {
+    color : hsl(213, 9%, 39%);
+}
+.testimonial .title {
+    color : hsl(210, 4%, 67%);
+    font-size : 2vw;
+}
+.testimonial .text{
+    font-size : 1.3vw;
+}
+
+.testimonial .name{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size : 1.3vw;
+    color : hsl(212, 27%, 19%);
+}
+.testimonial .job{
+    color : hsl(210, 4%, 67%);
+    font-size : 1vw;
+}
+.pic{
+    width : 22%;
+    height : auto;
+}
+.red {
+    border-bottom: 1px solid hsla(7, 99%, 70%,0.25);
+    box-shadow: inset 0 -11px 0 hsla(7, 99%, 70%,0.25);
+    &:hover {
+        background-color: hsla(7, 99%, 70%,0.25);
+    }
+}
+.nav-item button{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size : 0.7em;
+    color : black;
+    background-color : hsl(0, 0%, 100%);
+}
+.nav-item button:hover{
+    background-color : hsla(0, 0%, 100%,0.8);
+}
+
+.yellow{
+    border-bottom: 1px solid hsla(51, 100%, 49%,0.25);
+    box-shadow: inset 0 -11px 0 hsla(51, 100%, 49%,0.25);
+    &:hover {
+        background-color: hsla(51, 100%, 49%,0.25);
+    }
+}
+
+.creative{
+    transform: translateX(-50%)!important;
+    top : 120px;
+}
+.creative img {
+    width : 4%;
+    height : auto;
+}
+.creative>.title{
+    font-size : 5vw;
+    text-transform : uppercase;
+    letter-spacing : 0.2em;
+    color : white;
+}
+.white > .title{
+    color : black;
+}
+.white > .text{
+    color : hsl(213, 9%, 39%);
+}
+#menu{
+    flex-direction : row-reverse;
+}
+@media (max-width: 575.9px) {
+    body {
+        font-size: 1.8em;
+    }
+    .square .title{
+        font-size : 8vw;
+    }
+    .square  .text{
+        font-size : 4vw;
+    }
+
+    .title{
+        font-size : 4em;
+    }
+
+    .learn {
+        font-size: 1em;
+    }
+
+    .testimonial .title {
+        font-size : 5vw;
+    }
+    .testimonial .text{
+        font-size : 3.5vw;
+    }
+
+    .testimonial .name{
+
+        font-size : 3.5vw;
+
+    }
+    .testimonial .job{
+        font-size : 3vw;
+    }
+    .pic{
+        width : 30%;
+        height : auto;
+    }
+
+
+    .creative img {
+        width : 12%;
+        height : auto;
+    }
+    .creative>.title{
+        font-size : 8vw;
+        letter-spacing : 0.2em;
+
+    }
+    #menu{
+        background-color : #3EBFFF;
+        justify-content:center;
+        text-align: center;
+        z-index : 1;
+        width : 80vw;
+        padding : 1em;
+
+    }
+    .nav-link{
+        color : black;
+    }
+    .nav-item button{
+        background-color : hsl(51, 100%, 49%);
+    }
+    .nav-item button:hover{
+        background-color : hsla(51, 100%, 49%,0.8);
+    }
+    .navbar{
+        flex-direction : row-reverse;
+    }
+}
