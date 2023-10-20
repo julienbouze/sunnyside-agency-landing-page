@@ -112,6 +112,10 @@ body {
         background-color: hsla(7, 99%, 70%,0.25);
     }
 }
+
+.nav-item > a {
+    color : white!important;
+}
 .nav-item button{
     font-family: 'Fraunces';
     font-weight: 900;
